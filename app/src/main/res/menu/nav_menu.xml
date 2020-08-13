@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:title="2D History"
+        android:id="@+id/dd_history_menu"
+        android:icon="@drawable/ic_2d_history"/>
+    <item android:title="3D History"
+        android:id="@+id/ddd_history_menu"
+        android:icon="@drawable/ic_3d_history" />
+    <item
+
+        android:id="@+id/facebook_page"
+        android:actionLayout="@layout/facebook_page"/>
+
+</menu>

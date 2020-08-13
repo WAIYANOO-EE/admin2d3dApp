@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="15dp"
+    android:elevation="15dp"
+    app:cardCornerRadius="15dp">
+
+    <TextView
+        android:id="@+id/txt3DDate"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:drawableLeft="@drawable/ic_calender"
+        android:drawablePadding="10dp"
+        android:background="#f50057"
+        android:drawableTint="#ffffff"
+        android:gravity="center|left"
+        android:text="3 / 3 / 2017"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt3d_No"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center|right"
+        android:paddingRight="40dp"
+        android:text="123"
+        android:textColor="#212121"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChatActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_let_chat"
+            android:drawablePadding="10dp"
+            android:drawableTint="#29b6f6"
+            android:fontFamily="@font/no"
+            android:text="Let's "
+            android:textColor="#2962ff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/no"
+            android:text=" Talk"
+            android:textColor="#d50000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:background="#cfd8dc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rcvChat"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/edt_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Type message" />
+
+        <ImageView
+            android:id="@+id/btn_send"
+            android:layout_width="8dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_send"
+            android:tint="#304ffe" />
+    </LinearLayout>
+
+</LinearLayout>

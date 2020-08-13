@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Myanmar 2D&amp;3D Live App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">open_drawer</string>
+    <string name="close_drawer">close_drawer</string>
+    <string name="home_frag">Home Fragment</string>
+    <string name="chat_ref">chatRef</string>
+    <string name="openDrawer" />
+    <string name="closeDrawer" />
+
+    <string name="facebook_app_id">984231032024958</string>
+    <string name="fb_login_protocol_scheme">fb984231032024958</string>
+    <string name="todayRef">today</string>
+    <string name="last_txt">last</string>
+    <string name="change_txt">change</string>
+
+
+</resources>
